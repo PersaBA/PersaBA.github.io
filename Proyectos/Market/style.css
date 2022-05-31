@@ -1,0 +1,286 @@
+body {
+  background-color: #0a0a0a;
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+.btnColor:hover {
+  background-color: #207dbb;
+  color: white;
+}
+
+.menuColor:hover {
+  background-color: #00d9ff;
+
+}
+
+#header-img {
+  position: fixed;
+  left: 40px;
+}
+
+#nav-bar {
+  top: 0;
+  background-color: #0e0e0e;
+  position: fixed;
+  width: 100vw;
+  height: auto;
+}
+
+.font-can {
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.nav-link {
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navLinkmargin {
+  margin-right: 50px;
+}
+
+.img-main-prin {
+  background-image: url("https://resource.logitechg.com/w_1800,c_limit,f_auto,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/gaming/en/products/color-way-updates/Hero-color-desktop-3.png?v=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+#email-p {
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+  background-color: #000000dc;
+  margin-top: -2px;
+  padding: 10px;
+  padding-top: 10%;
+  text-decoration: none;
+
+}
+
+#email-p h1 {
+  text-align: center;
+  color: #00d9ff;
+  font-size: 40px;
+}
+
+#email-p h2 {
+  text-align: center;
+  font-size: 15px;
+  color: #b3b3b3;
+  margin-top: -20px;
+}
+
+#email-p #email {
+  width: 70%;
+  height: 25pt;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: none;
+}
+
+
+.btn-mail {
+  height: 28pt;
+  width: 25%;
+  float: right;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+#main {
+  background-color: #000000;
+  width: 80vw;
+  height: auto;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+
+}
+
+#ad {
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  height: 70vh;
+  width: 60vw;
+  box-sizing: border-box;
+}
+
+#store {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+#titleStore {
+  background-color: #0e0e0e;
+  padding: 10px 1px 10px 1px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(95% / 3);
+  height: auto;
+  margin: 20px;
+  margin-top: -20px;
+  background-color: #141414;
+  border-radius: 3px;
+
+}
+
+#comboTag {
+  font-size: 15px;
+  background-color: red;
+  position: absolute;
+  margin-left: -25px;
+  margin-top: -15px;
+  opacity: 0.75;
+}
+
+#margenes {
+  padding-top: 30px;
+  width: 80%;
+}
+
+.product ol {
+  margin: 10px 0 40px 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+  counter-reset: listCounter;
+  list-style: none;
+  height: 150px;
+  margin: 40px;
+
+}
+
+.product ol li {
+  margin-top: 15px;
+}
+
+#btn-div {
+  width: 100%;
+}
+
+
+
+.product button {
+  margin: auto;
+  background-color: #ffffff;
+  color: #000000;
+  border: 0;
+}
+
+#btn {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+
+
+  #email-p {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -2px;
+    padding: 0;
+    padding-top: 40%;
+    text-align: center;
+  }
+
+  #email-p #email {
+    width: 90%;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+
+  #titleStore {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .btn-mail {
+    width: 40%;
+    float: none;
+    border-radius: 10px;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  #header-img {
+    position: fixed;
+    height: 20px;
+    left: 10px;
+    top: 5px;
+  }
+
+  #main {
+    width: 100vw;
+  }
+
+  #store {
+    flex-direction: column;
+
+  }
+
+  .nav-link {
+    margin: auto;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  #video {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    height: 40vh;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+}

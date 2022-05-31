@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="main">
+    <h1 id="title">Formulario para Contacto</h1>
+    <p id="description">Manda el formulario para que nos contactemos con usted</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name" class="title-label">Nombre</label>
+            <br>
+            <input type="text" id="name" class="form-inp" name="name" placeholder="Nombre" required="">
+        </div>
+        <div class="form-group">
+            <label id="lastName-label" for="lastName" class="title-label">Apellido</label>
+            <br>
+            <input type="text" id="lastName" class="form-inp" name="lastName" placeholder="Apellido" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email" class="title-label">Correo electronico</label>
+            <br>
+            <input type="email" id="email" class="form-inp" name="email" placeholder="Correo Electronico" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number" class="title-label">Edad</label>
+            <br>
+            <input type="number" name="number" class="form-inp" id="number" min="10" max="99" placeholder="Edad" required>
+        </div>
+        <div class="form-group">
+          <p class="titleControl">Te interesa que te mandemos mas informacion al mail?</p>
+          <label>
+            <input name="user-recommend" value="obviously" type="radio" class="input-radio" checked="">Claro, porque no?</label>
+          <br>
+            <label>
+            <input name="user-recommend" value="maybe" type="radio" class="input-radio">Tal vez, de vez en cuanto</label>
+    <br>
+          <label><input name="user-recommend" value="notThanks" type="radio" class="input-radio"input-checkbox "">No, gracias</label>
+        </div>
+        <div class="form-group">
+            <p class="titleControl">Como te enteraste del curso?</p>
+        <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Seleccione la opcion correcta</option>
+            <option value="school">Escuela</option>
+            <option value="publishStreet">Publicidad Callejera</option>
+            <option value="publishSocial">Publicidades en redes sociales</option>
+            <option value="recommended">Por un conocido/ amigo/ familiar</option>
+            <option value="other">Otros</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <p class="titleControl">
+              Que curso te gustaria tomar?
+            </p>
+      
+            <label><input name="prefer" value="front-end-curse" type="checkbox" class="input-checkbox ">Curso de programacion Front-end</label>
+            <br>
+            <label><input name="prefer" value="back-end-curse" type="checkbox" class="input-checkbox">Cursos de programacíon Back-end</label>
+            <br>
+            <label><input name="prefer" value="hacking-etico-curse" type="checkbox" class="input-checkbox">Cursos de hacking etico</label>
+            <br>
+            <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Cursos de edicion con pogramas de Adobe</label>
+            <br>
+            <label><input name="prefer" value="c-curse" type="checkbox" class="input-checkbox">Cursos de C# y C++</label>
+            <br>
+            <label><input name="prefer" value="containment-creation-curse" type="checkbox" class="input-checkbox">Cursos de creacion de contenido</label>
+            <br>
+          </div>
+          <div class="form-group">
+            <p class="titleControl">Algun comentario? ( Para mejorar la experiencia )</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Por favor comenta aqui..."></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Enviar
+            </button>
+          </div>
+
+    </form>
+</main>
+
+</body>
+
+</html>

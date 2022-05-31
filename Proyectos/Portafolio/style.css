@@ -1,0 +1,234 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #474747;
+}
+
+.nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    z-index: 10;
+
+}
+
+.nav-list {
+    display: flex;
+
+    
+    font-size: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #dfdfdf;
+    height: auto;
+
+}
+
+.nav-list a:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #363636;
+}
+
+
+section {
+    background-color: #00000050;
+    margin-bottom: 10px;
+}
+
+
+.welcome-section {
+    background-image: url("https://www.getbidbar.com/assets/blog/programming_topics.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.marg {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: -40px;
+}
+
+.welcome-section h1 {
+    font-size: 70px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.welcome-section h1 span {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -20px;
+    font-size: 30px;
+
+}
+
+.welcome-section p {
+    font-size: 20px;
+    margin: 0;
+    color: #d6d6d6;
+}
+
+
+.projects{
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.header-h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: #ffffff;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
+
+.cardProyectos {
+    width: calc(90% / 3);
+    background-color: black;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.cardProyectos a p {
+    font-size: 10px;
+    position: absolute;
+    color: #000000;
+    margin-top: 9px;
+    padding: 2px;
+    padding-right: 10px;
+    background-color: #fafafa;
+}
+.cardProyectos a{
+    text-decoration: none;
+}
+.cardProyectosTitle {
+    margin-top: 30px;
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.cardProyectosImg {
+    height: auto;
+    width: 100%;
+    margin-bottom: -5px;
+
+}
+.Contacto{
+
+    width: 100vw;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+   padding-bottom: 90px;
+}
+.redesSociales{
+color: white;
+font-size: 0.75rem;
+}
+.iconRedes{
+background-color: #ffffff;
+    width: 200px;
+    margin: 20px;
+    height: 200px;
+    margin-top: 20px;
+    padding: 30px;
+     display: inline-block;
+     border-radius: 10px;
+     text-align: center;
+     align-items: center;
+
+}
+.iconRedes h2{
+    margin: 20px;
+}
+.iconRedes a{
+    text-decoration: none;
+    color: #000000;
+}
+svg{
+    width: 80px;
+    height: auto;
+    display:block;
+    margin: auto;
+    
+} 
+@media (max-width: 1200px) {
+    .cardProyectos {
+        width: calc( 90% / 2);
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .cardProyectos {
+        width: 90%;
+    }
+
+    .marg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        border: none;
+    }
+    
+    .welcome-section h1 {
+        font-size: 70px;
+        margin: 0;
+        color: #ffffff;
+    }
+    
+    .welcome-section p {
+        font-size: 20px;
+        margin: 0;
+        color: #d6d6d6;
+    }
+    .nav {
+        justify-content: center;
+
+    
+    }
+    
+}

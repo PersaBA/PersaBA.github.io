@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #e7e7e7;
+    height: auto;
+    width: 100vw;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    overflow-x: hidden;
+}
+
+#main {
+    min-height: 100vh;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+}
+
+#subtitle {
+    margin-top: -20px;
+    color: #5a5a5a;
+}
+
+#image {
+    margin: auto;
+    margin-top: -45px;
+    width: 100%;
+    max-width:1200px;
+    display: block;
+    height: auto;
+}
+
+#img-div {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: #6e6e6e;
+    padding-bottom: 5px;
+   
+}
+
+#tribute-info {
+    width: 50vw;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#list {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#items{
+    margin-top: 4px;
+    background-color: #eeeeee;
+    padding: 2px;
+    padding-left: 5px ;
+    border: 2px solid #d6d6d6;
+}
+
+@media (max-width: 600px) {
+    #tribute-info {
+        width: 100vw;
+        font-size: 20px;
+    }
+    #items{
+        padding-left: 2px;
+    }
+img{
+ opacity: 0;
+}
+#img-caption{
+opacity: 0;
+}
+#img-div{
+    background-image: url("https://lh3.googleusercontent.com/nSSzrMBDUh02EEFefEWvTsHA6__lydGSJRC711oB_pnFHth2Ylhl_12lCZE9sbaQG3pZp4XHBmSSvfo=w2048-h853-p-l90-rj");
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: initial;
+    margin-top: -29px;
+}
+}

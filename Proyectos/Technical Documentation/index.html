@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Documentacion de JavaScript </header>
+        <ul>
+            <li> <a href="#Introduccion" class="nav-link">Introduccion</a></li>
+            <li> <a href="#lo_que_ya_debes_saber" class="nav-link">Lo que ya debes saber</a></li>
+            <li> <a href="#javaScript_y_java" class="nav-link">javaScript y Java</a></li>
+            <li> <a href="#hola_mundo" class="nav-link">Hola Mundo</a></li>
+            <li> <a href="#variables" class="nav-link">Variables</a></li>
+            <li> <a href="#declaracion_de_variables" class="nav-link">Declaracion de Variables</a></li>
+            <li> <a href="#datos" class="nav-link">Tipo de datos</a></li>
+        </ul>
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduccion">
+            <header>Introduccion</header>
+            <p> JavaScript es un lenguaje de secuencias de comandos orientado a objetos y multiplataforma. Es un
+                lenguaje pequeño y ligero. Dentro de un entorno de host (por ejemplo, un navegador web), JavaScript se
+                puede conectar a los objetos de su entorno para proporcionar control programático sobre ellos.</p>
+            <p> JavaScript contiene una biblioteca estándar de objetos, como Array, Date y Math, y un conjunto básico de
+                elementos de lenguaje, como operadores, estructuras de control y sentencias. Core JavaScript se puede
+                extender para una variedad de propósitos al complementarlo con objetos adicionales; por ejemplo: </p>
+            <ul>
+                <li>JavaScript del lado del cliente amplía el lenguaje principal al proporcionar objetos para controlar
+                    un navegador y su Modelo de objetos de documento (DOM). Por ejemplo, las extensiones del lado del
+                    cliente permiten que una aplicación coloque elementos en un formulario HTML y responda a eventos del
+                    usuario, como clics del mouse, entrada de formulario y navegación de página.</li>
+                <li>JavaScript del lado del servidor amplía el lenguaje central al proporcionar objetos relevantes para
+                    ejecutar JavaScript en un servidor. Por ejemplo, las extensiones del lado del servidor permiten que
+                    una aplicación se comunique con una base de datos, proporcionen continuidad de información de una
+                    invocación a otra de la aplicación o realicen manipulaciones de archivos en un servidor.</li>
+
+            </ul>
+        </section>
+
+        <section class="main-section" id="lo_que_ya_debes_saber">
+            <header>Lo que ya debes saber</header>
+            <p>Esta guía asume que usted tiene los siguientes antecedentes básicos: </p>
+            <ul>
+                <li>
+                    Una comprensión general de Internet y la World Wide Web (WWW).
+                </li>
+                <li>Buen conocimiento práctico del lenguaje de marcado de hipertexto (HTML).</li>
+                <li>
+                    Algo de experiencia en programación. Si eres nuevo en la programación, prueba uno de
+                    los tutoriales enlazados en la página principal sobre JavaScript.
+                </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="javaScript_y_java">
+            <header>JavaScript y Java</header>
+            <p> JavaScript y Java son similares en algunos aspectos, pero fundamentalmente diferentes en otros. El
+                lenguaje JavaScript se parece a Java, pero no tiene el tipado estático ni la verificación de tipos
+                fuerte de Java. JavaScript sigue la mayoría de las sintaxis de expresiones de Java, las convenciones de
+                nomenclatura y las construcciones básicas de flujo de control, razón por la cual se cambió el nombre de
+                LiveScript a JavaScript. </p>
+            <p> A diferencia del sistema de clases en tiempo de compilación de Java construido por declaraciones,
+                JavaScript admite un sistema de tiempo de ejecución basado en una pequeña cantidad de tipos de datos que
+                representan valores numéricos, booleanos y de cadena. JavaScript tiene un modelo de objetos basado en
+                prototipos en lugar del modelo de objetos basado en clases más común. El modelo basado en prototipos
+                proporciona una herencia dinámica; es decir, lo que se hereda puede variar para objetos individuales.
+                JavaScript también admite funciones sin ningún requisito declarativo especial. Las funciones pueden ser
+                propiedades de objetos, ejecutándose como métodos vagamente tipificados. </p>
+            <p> JavaScript es un lenguaje de forma muy libre en comparación con Java. No tiene que declarar todas las
+                variables, clases y métodos. No tiene que preocuparse por si los métodos son públicos, privados o
+                protegidos, y no tiene que implementar interfaces. Las variables, los parámetros y los tipos de
+                devolución de funciones no se escriben explícitamente.</p>
+        </section>
+
+        <section class="main-section" id="hola_mundo">
+            <header>Hola mundo</header>
+            <p>
+                Para comenzar a escribir JavaScript, abra el Bloc de notas y escriba su primer código JavaScript "Hola
+                mundo":</p>
+                <div class="code">
+                function greetMe(yourName) { alert("Hello " + yourName); }
+                greetMe("World");
+                </div>
+            <p>o tambien</p>
+            <div class="code">document.write("Hola mundo");</div>
+            <p>
+                ¡Seleccione el código en el pad y presione Ctrl+R para verlo desplegarse en su navegador!</p>
+        </section>
+
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <p>Las variables son la manera como los programadores
+                le dan nombre a un valor para poder reusarlo,
+                actualizarlo o simplemente registrarlo.
+            </p>
+            <p>Las variables se pueden usar para guardar cualquier
+                tipo de dato en JavaScript
+            </p>
+
+        </section>
+        <section class="main-section" id="declaracion_de_variables">
+            <header>Declaracion de variables</header>
+            <p>las 3 tipos de variables var, let y const</p>
+
+
+            <p>Declarando con <span>var</span></p>
+            <div class="code">var x
+            <br>
+            x = 0</div>
+            <ol>
+                <li>VAR me permite declarar mas de una variable con el mismo nombre.</li>
+                <li>VAR permite declarar la variable y no inicializarlo,
+                    y mas tarde en cualquier lugar del codigo inicializarlo.</li>
+            </ol>
+
+            <p>Declarando con <span>let</span> </p>
+            <div class="code">let y
+            <br>
+           y = 0</div>
+            <ol>
+                <li>LET no me permite declarar mas de una variable con el mismo nombre.</li>
+                <li>LET permite declarar la variable y no inicializarlo, y mas tarde en cualquier lugar
+                    del codigo inicializarlo.</li>
+            </ol>
+
+            <p>Declarando con <span>const</span></p>
+            <div class="code">const z= 0</div>
+            <ol>
+                <li>CONST no me permite declarar mas de una variable sin inicializarla.</li>
+                <li>CONST no me permite declarar mas de una variable con el mismo nombre.</li>
+            </ol>
+
+            <p>Cuando declaramos una variable y no la inicializamos la varible da como resultado undefined</p>
+        </section>
+        <section class="main-section" id="datos">
+            <header>Objetos y Arrays</header>
+            <p>En JavaScript, un <span>objeto</span> es un entidad independiente con propiedades y
+                tipos. Compáralo con una taza, por ejemplo. Una taza es un objeto con
+                propiedades.
+            </p>
+            <p> Una taza tiene:
+            </p>
+            <ul>
+                <li>un color</li>
+                <li>un diseño</li>
+                <li>un peso</li>
+                <li>un material del que está hecha</li>
+                <li>ETC</li>
+            </ul>
+            <div class="code">
+                const persona = {<br>
+                nombre: 'maria',<br>
+                apellido: 'perez',<br>
+                edad: 22 <br>
+                }
+            </div>
+            <p>Los <span>arrays</span> son objetos similares a una lista cuyo
+                prototipo proporciona métodos para efectuar
+                operaciones de recorrido y de mutación.
+                Tanto la longitud como el tipo de los elementos
+                de un array son variables.</p>
+                <div class="code">    
+                    const frutas= ['pera','limon']
+                </div>
+            <p>Tambien estan los datos </p>
+        </section>
+
+
+
+
+
+
+    </main>
+
+
+
+</body>
+
+</html>

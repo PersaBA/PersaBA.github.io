@@ -1,0 +1,110 @@
+body{
+
+    background-color: #31317e;
+    color: #ffffff;
+    font-family: 'Radio Canada', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-top: -28px;
+    background-image: url("https://wp-mktg.prod.getty1.net/istockcontentredesign/wp-content/uploads/sites/5/2020/06/2021_whatarevectorgraphics_hero.jpg");
+    background-position: center;
+    background-repeat:repeat;
+    background-size:cover;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#main{
+    text-align: center;
+}
+#survey-form{
+    padding-top: 10px;
+    width: 60vw;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.726);
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.form-group{
+    margin:auto ;
+    margin-top:20px;
+    width: 80%;
+    text-align: left;
+}
+.form-inp{
+    width: 99%;
+    height: auto;
+    margin-top:10px ;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+}
+.title-label{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.form-control{
+    width: 100%;
+    height: 35px;
+    margin-top:4px ;
+    margin-bottom: 4px;
+    border-radius: 9px;
+    font-size: 20px;
+    
+}
+
+.titleControl{  
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.input-checkbox{
+    margin-top: 10px;
+
+}
+.input-checkbox{
+    margin-top: 15px;
+
+}
+
+.input-textarea{
+    height: 80px;
+    width: 96.6%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+
+.submit-button{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #ff0000;
+    border: 0;
+    color: #c9c9c9;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) { 
+    #form-contact{
+        width: 100vw;
+        border-radius:0;
+    }
+    .form-group{
+        width: 90%;
+
+    }
+    .input-textarea{
+        width: 92%;
+    }
+}
