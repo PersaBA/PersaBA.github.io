@@ -96,6 +96,7 @@ section {
     justify-content: center;
     margin: 0px;
     list-style: none;
+    z-index:500;
 }
 
 .link-nav {
