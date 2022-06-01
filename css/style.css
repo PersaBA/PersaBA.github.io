@@ -255,7 +255,7 @@ overflow-x: auto;
 }
 /* =========================== About me =========================== */
 .Aboutme {
-    background-image: url('../img/4.jpg');
+    background-image: url('../img/5.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -382,18 +382,22 @@ overflow-x: auto;
         margin: auto;
         width: 100vw;
     }
-    
+    .center{
+        display: block;
+    }
+    .Social p{
+        width: 100%;
+    }
     .redesLink {
-        display: inline-block;
-        width: 500px;
-        align-items: center;
+       display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
     }
 
     .LinkSocial {
         display: inline-block;
-        padding: 5px;
-        margin: 40px 0px;
-        border-radius: 5px;
+
     }
     .estudios-main{
         margin: 0;
@@ -412,11 +416,14 @@ overflow-x: auto;
         margin: 10px 0px;
     }
 
-    .principal .imgCard {
+    .imgCard {
         height: 100vw;
         width: 100vw;
     }
-
+    .principal .partImg img{
+        height:100vw ;
+        width: 100vw;
+    }
     .com {
         padding: 2rem;
     }
