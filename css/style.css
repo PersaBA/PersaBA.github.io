@@ -232,8 +232,17 @@ section {
     align-items: center;
     overflow-x: auto;
 }
-
-
+.estudios-Icons::-webkit-scrollbar{
+    opacity: 0;
+}
+.estudios-Icons::-webkit-scrollbar-button{
+    opacity: 0;
+}
+.estudios-Icons::-webkit-scrollbar-thumb{
+    background-color: rgb(88, 88, 88);
+    border-radius: 30px;
+    
+}
 .article-estudios svg {
     width: 200px;
     fill: white;
@@ -506,7 +515,8 @@ section {
     }
 
     .redesLink ul {
-        display: inline-block;
+        display: grid;
+        justify-content: center;
         padding: auto;
     }
 
